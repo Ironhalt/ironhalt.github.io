@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>switch</title>
+	<link rel="stylesheet" type="text/css" href="switchtest.css">
+</head>
+
+<body>
+	<div id="viewer"> 
+		<img src="./img/skin3.png" class="clothes" id="skinURL">
+
+	</div>
+	<div id="wardrobe">
+
+		<div id="navbar">
+			<div class="navbarTab">body</div>
+
+				<div class="dropdown" id="bodyTab">
+					<button class="dropdownItem">skin</button>
+					<button class="dropdownItem">hair</button>
+				</div>
+
+			<div class="navbarTab">shirt</div>
+			<div class="navbarTab">jeans</div>
+
+		</div>
+		<div class="wardrobeTab">
+			<button class="wardrobeItem" id="skin1" onclick="changeSkin(this)"><img src="./img/skin1icon.png"></button>
+			<button class="wardrobeItem" id="skin2" onclick="changeSkin(this)"><img src="./img/skin2icon.png"></button>
+			<button class="wardrobeItem" id="skin3" onclick="changeSkin(this)"><img src="./img/skin3icon.png"></button>
+			<button class="wardrobeItem" id="skin4" onclick="changeSkin(this)"><img src="./img/skin4icon.png"></button>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="switchtest.js"></script>
+</body>
+
+</html>

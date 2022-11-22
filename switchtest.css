@@ -1,0 +1,91 @@
+body {
+	background-color: grey;
+}
+#viewer {
+	width: 220px;
+	height: 350px;
+	outline: 1px solid black;
+	background-color: white;
+	position: relative;
+	float: left;
+	border-radius: 5px 0px 0px 5px;
+	overflow: hidden;
+}
+#wardrobe {
+	width: 180px;
+	height: 350px;
+	background-color: gainsboro;
+	outline: 1px solid black;
+	position: relative;
+	margin-left: 220px;
+	border-radius: 0px 5px 5px 0px;
+	overflow: hidden;
+}
+#navbar {
+	width: 180px;
+	height: 30px;
+	background-color: mediumpurple;
+}
+.navbarTab {
+	width: 60px;
+	height: 30px;
+	color: white;
+	float: left;
+	margin: auto;
+	text-align: center;
+	line-height: 30px;
+}
+.navbarTab:hover {
+	background-color: rebeccapurple;
+}
+.dropdown {
+	position: absolute;
+	width: 60px;
+	margin-top: 30px;
+	display: none;
+	z-index: 1;
+}
+button.dropdownItem {
+	-webkit-appearance: none;
+	appearance: none;
+	height: 30px;
+	width: 60px;
+	background-color: rebeccapurple;
+	color: white;
+	border: none;
+}
+button.dropdownItem:hover {
+	background-color: mediumvioletred;
+}
+#bodyTab:hover .dropdown {
+	display: block;
+}
+.clothes {
+	width: 220px;
+	height: 350px;
+	position: absolute;
+		top: 0;
+		left: 0;
+}
+.wardrobeTab {
+	position: absolute;
+	width: 180px;
+	height: 320px;
+	background-color: palevioletred;
+	font-size: 0px;
+}
+button.wardrobeItem {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 60px;
+	height: 60px;
+	border: none;
+	overflow: hidden;
+
+}
+.wardrobeItem img {
+	width: 60px;
+	height: 60px;	
+	margin-top: -1px;
+	margin-left: -6px;
+}
